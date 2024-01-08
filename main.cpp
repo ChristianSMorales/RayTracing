@@ -17,7 +17,7 @@ int main(int argc, char const *argv[]) {
     fuente.p.x,fuente.p.y,fuente.p.z,
     fuente.eF,
     fuente.NRAYS,
-    fuente.Rays.x,fuente.Rays.y,fuente.Rays.z
+    fuente.Rays->x,fuente.Rays->y,fuente.Rays->z
     );
   return 0;
 }
