@@ -13,11 +13,11 @@ int main(int argc, char const *argv[]) {
   fuente.createRay(2, 1, 0); // Rayo
   fuente.changeEnergy(1000);
   fuente.NRAYS = 10;
-  printf("Datos de la fuente:(Posicion inicial: %f\nNumero de rayos de la fuente: %f\n Densidad de rayos: %f\nEnergia inicial: %f",
-    fuente.p,
+  printf("Datos de la fuente:(Posicion inicial: (%f,%f,%f)\nEnergia la fuente: %f\n Número de rayos: %f\nDireccion de partida: (%f,%f,%f)",
+    fuente.p.x,fuente.p.y,fuente.p.z,
     fuente.eF,
     fuente.NRAYS,
-    fuente.Rays,
+    fuente.Rays.x,fuente.Rays.y,fuente.Rays.z
     );
   return 0;
 }
