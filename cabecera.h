@@ -4,9 +4,8 @@
 #include <math.h>
 #include <stdio.h>
 
-const int MaxReflections =
-    5; // Aqui se debe definir el número de veces que rebota
-const double LostEnergy = 0.20;
+const int MaxReflections = 5; //Max buncings
+const double LostEnergy = 0.20; //Init Energy
 using namespace std;
 
 //----------VECTOR----------
